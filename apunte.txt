@@ -42,3 +42,21 @@ Directorio de trabajo: es la carpeta del proyecto que contiene los archivos y el
 --Confirmación--
 Repositorio: Contiene los metadatos y todas las versiones del proyecto.
 ]
+
+Estatus del repositorio y preparación:
+[
+git status <muestra el estatus en el repositorio de git>
+git add nombreArchivo <git estará pendiente a los cambios del archivo>
+git add . <git estará pendiente de los cambios en todos los archivos>
+git rm --cached nombreArchivo <remueve el archivo del área de preparación>
+]
+
+Commit y confirmación:
+
+[
+git commit -m "mensaje con los cambios realizados"
+git log <muestra el historial de los commit realizados>
+]
+
+
+Hola freecodercamp000
