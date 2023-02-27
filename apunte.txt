@@ -60,4 +60,7 @@ git log <muestra el historial de los commit realizados>
 git config --global core.editor "code --wait" <enlaza git con visual estudio en caso de no seleccionarlo en la instalación de git>
 ]
 
+la wea!
+
+
 
