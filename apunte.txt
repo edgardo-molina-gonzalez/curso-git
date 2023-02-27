@@ -1,0 +1,44 @@
+Comandos de consola:
+
+cd <cambio de directorio>
+cd.. <regresa al directorio anterior>
+cd <usandolo solo lleva de golpe a la raíz>
+cd nombreDirectorio <lleva al directorio nombrado>
+mkdir <permite crear una carpeta>
+ls <muestra la lista de archivos en el directorio>
+rmdir nombreDirectorio <borra el directorio seleccionado>
+clear <limpia la consola>
+ctrl l <lleva a la última línea de la consola>
+
+*****************************************************************
+
+Comandos  git:
+
+[
+--Se puede omitir --global si se quiere hacer solo de forma local--
+git config --global  user.name "Edgardo Molina" <configura nombre de usuario en git>
+git config user.name <confirma el nombre del usuario>
+
+git config --global user.email "email" <configura el email en git>
+git config user.email "email" <confirma el email en git>
+]
+
+Repositorio local:
+
+[
+git init <inicia git, crea un repositorio, crea una carpeta oculta llamada git>
+git config --global init.defaultBranch main <asigna nombre main al repositorio >
+]
+
+Tres Áreas en git:
+
+[
+--Modificación--
+Directorio de trabajo: es la carpeta del proyecto que contiene los archivos y el directorio .git que está en oculto.
+
+--Preparación--
+Área de preparacion: Conjunto de archivos y cambios que serán incluidos en el próximo commit.
+
+--Confirmación--
+Repositorio: Contiene los metadatos y todas las versiones del proyecto.
+]
