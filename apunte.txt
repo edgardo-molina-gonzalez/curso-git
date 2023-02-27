@@ -87,7 +87,7 @@ Ramas en git:
     git branch nombre <crea una rama>
     git branch <muestra en que rama estoy>
 
-    git-checkout nombreRama <lleva a la rama nombrada>
+    git-checkout nombreRama [lleva a la rama nombrada]
     git-checkout -b nombreRama <crea la rama y lleva a ella>
 
     git checkout -m nombreRama <cambia el nombre de la rama en la que se está>
@@ -99,8 +99,27 @@ Ramas en git:
 Crear commits en ramas:
 
 [
-    
+    Hay que ir a la rama en cuestión y hacer los commits ahí
 ]
 
+Git log para ramas:
+
+[
+    Hay que hacer el log en la rama en cuestión
+
+    git log --oneline
+
+    git log -p
+
+]
+
+
+Fusionar ramas en git:
+
+-hay que estar ubicado en la rama que recibirá la fusión
+
+[
+    git 
+]
 
 
