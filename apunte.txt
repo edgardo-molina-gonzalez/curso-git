@@ -55,7 +55,9 @@ Commit y confirmación:
 
 [
 git commit -m "mensaje con los cambios realizados"
+
 git log <muestra el historial de los commit realizados>
+Q <sale del git log>
 
 git config --global core.editor "code --wait" <enlaza git con visual estudio en caso de no seleccionarlo en la instalación de git>
 ]
