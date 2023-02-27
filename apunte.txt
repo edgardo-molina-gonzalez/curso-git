@@ -51,6 +51,7 @@ git add . <git estará pendiente de los cambios en todos los archivos>
 git rm --cached nombreArchivo <remueve el archivo del área de preparación>
 ]
 
+
 Commit y confirmación:
 
 [
@@ -73,7 +74,26 @@ se recomienda hacerlo solo en local
 git config --global core.editor "code --wait" <enlaza git con visual estudio en caso de no seleccionarlo en la instalación de git>
 ]
 
-la wea!
+
+Ramas en git:
+
+-es una línea independiente de desarrollo
+-crea una copia del proyecto de la rama donde se esté
+-los cambios afectarán solo a la rama y no a la rama principal
+-pueden combinarse con la rama principal
+
+[
+git branch nombre <crea una rama>
+git branch <muestra en que rama estoy>
+
+git-checkout nombreRama <lleva a la rama nombrada>
+git-checkout -b nombreRama <crea la rama y lleva a ella>
+
+git checkout -m nombreRama <cambia el nombre de la rama en la que se está>
+git branch -m nombreRama nuevoNombre <cambia el nombre de una rama estando en cualquier otra>
+
+git branch -d nombreRama <borra la rama local seleccionada>
+]
 
 
 
