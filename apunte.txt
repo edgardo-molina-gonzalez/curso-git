@@ -26,8 +26,8 @@ Comandos  git:
 Repositorio local:
 
 [
-    git init <inicia git, crea un repositorio, crea una carpeta oculta llamada git>
-    git config --global init.defaultBranch main <asigna nombre main al repositorio >
+    git init [inicia git, crea un repositorio, crea una carpeta oculta llamada git]
+    git config --global init.defaultBranch main [asigna nombre main al repositorio ]
 ]
 
 
@@ -46,10 +46,10 @@ Tres Áreas en git:
 
 Estatus del repositorio y preparación:
 [
-    git status <muestra el estatus en el repositorio de git>
-    git add nombreArchivo <git estará pendiente a los cambios del archivo>
-    git add . <git estará pendiente de los cambios en todos los archivos>
-    git rm --cached nombreArchivo <remueve el archivo del área de preparación>
+    git status [<muestra el estatus en el repositorio de git>]
+    git add nombreArchivo [<git estará pendiente a los cambios del archivo>]
+    git add . [<git estará pendiente de los cambios en todos los archivos>]
+    git rm --cached nombreArchivo[remueve el archivo del área de preparación>]
 ]
 
 
@@ -58,21 +58,21 @@ Commit y confirmación:
 [
     git commit -m "mensaje con los cambios realizados"
 
-    git log <muestra el historial de los commit realizados>
-    Q <sale del git log>
+    git log [muestra el historial de los commit realizados]
+    Q [sale del git log]
 
     git reset --soft HEAD~ 
-    git reset --hard HEAD~  <elimina el commit y tambien el contenido del archivo>
+    git reset --hard HEAD~  [elimina el commit y tambien el contenido del archivo]
     <
     -elimina el registro del commit pero sin modificar el archivo
     -pesca el último commit realizado
     -anula el commit para volver a hacerlo
     >
 
-    git commit --amend <permite cambiar el mensaje del ultimo commit>
+    git commit --amend [permite cambiar el mensaje del ultimo commit]
     se recomienda hacerlo solo en local
 
-    git config --global core.editor "code --wait" <enlaza git con visual estudio en caso de no seleccionarlo en la instalación de git>
+    git config --global core.editor "code --wait"[enlaza git con visual estudio en caso de no seleccionarlo en la instalación de git]
 ]
 
 
@@ -84,16 +84,16 @@ Ramas en git:
 -pueden combinarse con la rama principal
 
 [
-    git branch nombre <crea una rama>
-    git branch <muestra en que rama estoy>
+    git branch nombre [crea una rama]
+    git branch [muestra en que rama estoy]
 
     git-checkout nombreRama [lleva a la rama nombrada]
-    git-checkout -b nombreRama <crea la rama y lleva a ella>
+    git-checkout -b nombreRama [crea la rama y lleva a ella]
 
-    git checkout -m nombreRama <cambia el nombre de la rama en la que se está>
-    git branch -m nombreRama nuevoNombre <cambia el nombre de una rama estando en cualquier otra>
+    git checkout -m nombreRama [cambia el nombre de la rama en la que se está]
+    git branch -m nombreRama nuevoNombre [cambia el nombre de una rama estando en cualquier otra]
 
-    git branch -d nombreRama <borra la rama local seleccionada>
+    git branch -d nombreRama [borra la rama local seleccionada]
 ]
 
 Crear commits en ramas:
@@ -119,8 +119,12 @@ Fusionar ramas en git:
 -hay que estar ubicado en la rama que recibirá la fusión
 
 [
-    git 
+    git merge nombreRama [fusiona la rama a la principal]
 ]
 
-Test de prueba
+Conflitos al fusionar ramas:
+
+[
+    Se selecciona alguna opción ofrecida por el v-code
+]
 
