@@ -110,7 +110,6 @@ Git log para ramas:
     git log --oneline
 
     git log -p
-
 ]
 
 
@@ -122,9 +121,13 @@ Fusionar ramas en git:
     git merge nombreRama [fusiona la rama a la principal]
 ]
 
+
 Conflitos al fusionar ramas:
 
 [
-    Se selecciona alguna opción ofrecida por el v-code
+    -Se selecciona alguna opción ofrecida por el v-code
+    -Despues de seleccionadas las soluciones se aplica el comando:
+    
+    git merge --continue [permite continuar el proceso de unir las ramas]
 ]
 
