@@ -59,7 +59,12 @@ git commit -m "mensaje con los cambios realizados"
 git log <muestra el historial de los commit realizados>
 Q <sale del git log>
 
-
+git reset --soft HEAD~ 
+<
+elimina el registro del commit pero sin modificar el archivo
+pesca el último commit realizado
+anula el commit para volver a hacerlo
+>
 
 git commit --amend <permite cambiar el mensaje del ultimo commit>
 se recomienda hacerlo solo en local
