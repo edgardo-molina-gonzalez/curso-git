@@ -15,63 +15,64 @@ ctrl l <lleva a la última línea de la consola>
 Comandos  git:
 
 [
---Se puede omitir --global si se quiere hacer solo de forma local--
-git config --global  user.name "Edgardo Molina" <configura nombre de usuario en git>
-git config user.name <confirma el nombre del usuario>
+    --Se puede omitir --global si se quiere hacer solo de forma local--
+    git config --global  user.name "Edgardo Molina" <configura nombre de usuario en git>
+    git config user.name <confirma el nombre del usuario>
 
-git config --global user.email "email" <configura el email en git>
-git config user.email "email" <confirma el email en git>
+    git config --global user.email "email" <configura el email en git>
+    git config user.email "email" <confirma el email en git>
 ]
 
 Repositorio local:
 
 [
-git init <inicia git, crea un repositorio, crea una carpeta oculta llamada git>
-git config --global init.defaultBranch main <asigna nombre main al repositorio >
+    git init <inicia git, crea un repositorio, crea una carpeta oculta llamada git>
+    git config --global init.defaultBranch main <asigna nombre main al repositorio >
 ]
+
 
 Tres Áreas en git:
 
 [
---Modificación--
-Directorio de trabajo: es la carpeta del proyecto que contiene los archivos y el directorio .git que está en oculto.
+    --Modificación--
+    Directorio de trabajo: es la carpeta del proyecto que contiene los archivos y el directorio .git que está en oculto.
 
---Preparación--
-Área de preparacion: Conjunto de archivos y cambios que serán incluidos en el próximo commit.
+    --Preparación--
+    Área de preparacion: Conjunto de archivos y cambios que serán incluidos en el próximo commit.
 
---Confirmación--
-Repositorio: Contiene los metadatos y todas las versiones del proyecto.
+    --Confirmación--
+    Repositorio: Contiene los metadatos y todas las versiones del proyecto.
 ]
 
 Estatus del repositorio y preparación:
 [
-git status <muestra el estatus en el repositorio de git>
-git add nombreArchivo <git estará pendiente a los cambios del archivo>
-git add . <git estará pendiente de los cambios en todos los archivos>
-git rm --cached nombreArchivo <remueve el archivo del área de preparación>
+    git status <muestra el estatus en el repositorio de git>
+    git add nombreArchivo <git estará pendiente a los cambios del archivo>
+    git add . <git estará pendiente de los cambios en todos los archivos>
+    git rm --cached nombreArchivo <remueve el archivo del área de preparación>
 ]
 
 
 Commit y confirmación:
 
 [
-git commit -m "mensaje con los cambios realizados"
+    git commit -m "mensaje con los cambios realizados"
 
-git log <muestra el historial de los commit realizados>
-Q <sale del git log>
+    git log <muestra el historial de los commit realizados>
+    Q <sale del git log>
 
-git reset --soft HEAD~ 
-git reset --hard HEAD~  <elimina el commit y tambien el contenido del archivo>
-<
-elimina el registro del commit pero sin modificar el archivo
-pesca el último commit realizado
-anula el commit para volver a hacerlo
->
+    git reset --soft HEAD~ 
+    git reset --hard HEAD~  <elimina el commit y tambien el contenido del archivo>
+    <
+    -elimina el registro del commit pero sin modificar el archivo
+    -pesca el último commit realizado
+    -anula el commit para volver a hacerlo
+    >
 
-git commit --amend <permite cambiar el mensaje del ultimo commit>
-se recomienda hacerlo solo en local
+    git commit --amend <permite cambiar el mensaje del ultimo commit>
+    se recomienda hacerlo solo en local
 
-git config --global core.editor "code --wait" <enlaza git con visual estudio en caso de no seleccionarlo en la instalación de git>
+    git config --global core.editor "code --wait" <enlaza git con visual estudio en caso de no seleccionarlo en la instalación de git>
 ]
 
 
@@ -83,16 +84,22 @@ Ramas en git:
 -pueden combinarse con la rama principal
 
 [
-git branch nombre <crea una rama>
-git branch <muestra en que rama estoy>
+    git branch nombre <crea una rama>
+    git branch <muestra en que rama estoy>
 
-git-checkout nombreRama <lleva a la rama nombrada>
-git-checkout -b nombreRama <crea la rama y lleva a ella>
+    git-checkout nombreRama <lleva a la rama nombrada>
+    git-checkout -b nombreRama <crea la rama y lleva a ella>
 
-git checkout -m nombreRama <cambia el nombre de la rama en la que se está>
-git branch -m nombreRama nuevoNombre <cambia el nombre de una rama estando en cualquier otra>
+    git checkout -m nombreRama <cambia el nombre de la rama en la que se está>
+    git branch -m nombreRama nuevoNombre <cambia el nombre de una rama estando en cualquier otra>
 
-git branch -d nombreRama <borra la rama local seleccionada>
+    git branch -d nombreRama <borra la rama local seleccionada>
+]
+
+Crear commits en ramas:
+
+[
+    
 ]
 
 
