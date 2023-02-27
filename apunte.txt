@@ -60,6 +60,7 @@ git log <muestra el historial de los commit realizados>
 Q <sale del git log>
 
 git reset --soft HEAD~ 
+git reset --hard HEAD~  <elimina el commit y tambien el contenido del archivo>
 <
 elimina el registro del commit pero sin modificar el archivo
 pesca el último commit realizado
