@@ -63,11 +63,11 @@ Commit y confirmación:
 
     git reset --soft HEAD~ 
     git reset --hard HEAD~  [elimina el commit y tambien el contenido del archivo]
-    <
+    [
     -elimina el registro del commit pero sin modificar el archivo
     -pesca el último commit realizado
     -anula el commit para volver a hacerlo
-    >
+    ]
 
     git commit --amend [permite cambiar el mensaje del ultimo commit]
     se recomienda hacerlo solo en local
@@ -166,3 +166,4 @@ Git fetch:
     -Si uso este comando, el pull se hace así:
     git pull origin main [combina los cambios locales con la rama main]
 ]
+
