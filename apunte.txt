@@ -143,5 +143,5 @@ Clonar repositorio:
 Commit en repositorio local:
 
 [
-    
+    .
 ]
