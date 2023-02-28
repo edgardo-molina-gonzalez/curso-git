@@ -143,5 +143,5 @@ Clonar repositorio:
 Enviar cambios al repositorio remoto:
 
 [
-    git push [envía los cambios locales al repositorio remoto]
+    git push [envía los cambios locales al repositorio remoto].
 ]
