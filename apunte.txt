@@ -140,8 +140,29 @@ Clonar repositorio:
     git clone [url repositorio copiado]
 ]
 
-Enviar cambios al repositorio remoto:
+Git pull:
 
 [
-    git push [envía los cambios locales al repositorio remoto].
+    -en caso de hacer cambios es bueno primero hacer:
+    git add .
+    git commit -m ""
+
+    git pull [actualiza el repositorio local con el remoto]
+]
+
+Git fetch:
+
+[
+    -es usado para verificar cambios en el repositorio remoto
+    -sirve para estar al día y ver su hacer un git pull
+    -no combina los cambios remotos con el repositorio local
+    -si no hay cambios, no muestra nada
+
+    git fetch [muestra cambios realizados en el repositorio remoto]
+    git fetch origin[hace lo mismo]
+
+
+    git checkout origin/main [muestra los cambios en la rama remota]
+    -Si uso este comando, el pull se hace así:
+    git pull origin main [combina los cambios locales con la rama main]
 ]
