@@ -140,8 +140,8 @@ Clonar repositorio:
     git clone [url repositorio copiado]
 ]
 
-Commit en repositorio local:
+Enviar cambios al repositorio remoto:
 
 [
-    .
+    git push [envía los cambios locales al repositorio remoto]
 ]
