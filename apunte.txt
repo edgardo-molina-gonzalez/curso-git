@@ -131,3 +131,17 @@ Conflitos al fusionar ramas:
     git merge --continue [permite continuar el proceso de unir las ramas]
 ]
 
+Clonar repositorio:
+
+[
+    -Se copia el url del repositorio de github
+    -Se usa el url en el proyecto
+
+    git clone [url repositorio copiado]
+]
+
+Commit en repositorio local:
+
+[
+    
+]
